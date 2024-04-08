@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20BF74942BC396BD00155E10 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF74932BC396BD00155E10 /* UsersView.swift */; };
+		20BF74962BC39A5900155E10 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF74952BC39A5900155E10 /* Job.swift */; };
 		20EF1F0E2BBF73E2007FAFE1 /* SwiftDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF1F0D2BBF73E2007FAFE1 /* SwiftDataProjectApp.swift */; };
 		20EF1F102BBF73E2007FAFE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF1F0F2BBF73E2007FAFE1 /* ContentView.swift */; };
 		20EF1F122BBF73E3007FAFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EF1F112BBF73E3007FAFE1 /* Assets.xcassets */; };
 		20EF1F152BBF73E3007FAFE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EF1F142BBF73E3007FAFE1 /* Preview Assets.xcassets */; };
+		20F3AF462BC391880006B1C1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3AF452BC391880006B1C1 /* User.swift */; };
+		20F3AF482BC391E00006B1C1 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3AF472BC391E00006B1C1 /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20BF74932BC396BD00155E10 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		20BF74952BC39A5900155E10 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		20EF1F0A2BBF73E2007FAFE1 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EF1F0D2BBF73E2007FAFE1 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		20EF1F0F2BBF73E2007FAFE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20EF1F112BBF73E3007FAFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20EF1F142BBF73E3007FAFE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20F3AF452BC391880006B1C1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		20F3AF472BC391E00006B1C1 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,13 @@
 		20EF1F0C2BBF73E2007FAFE1 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				20F3AF442BC391780006B1C1 /* Models */,
 				20EF1F0D2BBF73E2007FAFE1 /* SwiftDataProjectApp.swift */,
 				20EF1F0F2BBF73E2007FAFE1 /* ContentView.swift */,
 				20EF1F112BBF73E3007FAFE1 /* Assets.xcassets */,
 				20EF1F132BBF73E3007FAFE1 /* Preview Content */,
+				20F3AF472BC391E00006B1C1 /* EditUserView.swift */,
+				20BF74932BC396BD00155E10 /* UsersView.swift */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -65,6 +76,15 @@
 				20EF1F142BBF73E3007FAFE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20F3AF442BC391780006B1C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20F3AF452BC391880006B1C1 /* User.swift */,
+				20BF74952BC39A5900155E10 /* Job.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BF74942BC396BD00155E10 /* UsersView.swift in Sources */,
+				20BF74962BC39A5900155E10 /* Job.swift in Sources */,
 				20EF1F102BBF73E2007FAFE1 /* ContentView.swift in Sources */,
+				20F3AF482BC391E00006B1C1 /* EditUserView.swift in Sources */,
 				20EF1F0E2BBF73E2007FAFE1 /* SwiftDataProjectApp.swift in Sources */,
+				20F3AF462BC391880006B1C1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
